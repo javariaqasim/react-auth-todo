@@ -1,4 +1,3 @@
-
 import app from "./firebaseconfig"
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword  } from "firebase/auth";
 import { getDatabase, ref, set, onValue } from "firebase/database";
@@ -73,4 +72,4 @@ const refrence = ref(database,`users/${user.uid}`)
 export { signUpUser, loginUser }
 
 
-signUpUser('abc@gmail.com',"123456").then
+// signUpUser('abc@gmail.com',"123456").then
